@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C03ABDBDAB5BD21A00FC3220918233EB9BE976B9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C03ABDBDAB5BD21A00FC3220918233EB9BE976B9" : 9223372036854775807,
+    "46CBA4FE3F9D5AC62DA0FB74A4E5418799F9C53A" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "335FA13A-68C4-433C-AE31-FCDA8FDBB381",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C03ABDBDAB5BD21A00FC3220918233EB9BE976B9" : "OpenGL%20ES%2001-GLKit\/",
+    "46CBA4FE3F9D5AC62DA0FB74A4E5418799F9C53A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OpenGL ES 01-GLKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OpenGL ES 01-GLKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fenglinyunshi\/OpenGL-ES-Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "46CBA4FE3F9D5AC62DA0FB74A4E5418799F9C53A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fenglinyunshi\/OpenGL-ES-Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C03ABDBDAB5BD21A00FC3220918233EB9BE976B9"
+    }
+  ]
+}
