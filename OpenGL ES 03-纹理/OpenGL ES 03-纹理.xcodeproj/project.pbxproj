@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA9567361E7BA9D9006305C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9567351E7BA9D9006305C6 /* main.m */; };
+		DA9567391E7BA9D9006305C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9567381E7BA9D9006305C6 /* AppDelegate.m */; };
+		DA95673C1E7BA9D9006305C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95673B1E7BA9D9006305C6 /* ViewController.m */; };
+		DA95673F1E7BA9D9006305C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA95673D1E7BA9D9006305C6 /* Main.storyboard */; };
+		DA9567411E7BA9D9006305C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9567401E7BA9D9006305C6 /* Assets.xcassets */; };
+		DA9567441E7BA9D9006305C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9567421E7BA9D9006305C6 /* LaunchScreen.storyboard */; };
+		DA95674F1E7BA9D9006305C6 /* OpenGL_ES_03___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95674E1E7BA9D9006305C6 /* OpenGL_ES_03___Tests.m */; };
+		DA95675A1E7BA9D9006305C6 /* OpenGL_ES_03___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9567591E7BA9D9006305C6 /* OpenGL_ES_03___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA95674B1E7BA9D9006305C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9567291E7BA9D9006305C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9567301E7BA9D9006305C6;
+			remoteInfo = "OpenGL ES 03-纹理";
+		};
+		DA9567561E7BA9D9006305C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA9567291E7BA9D9006305C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA9567301E7BA9D9006305C6;
+			remoteInfo = "OpenGL ES 03-纹理";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA9567311E7BA9D9006305C6 /* OpenGL ES 03-纹理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL ES 03-纹理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9567351E7BA9D9006305C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA9567371E7BA9D9006305C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA9567381E7BA9D9006305C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA95673A1E7BA9D9006305C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA95673B1E7BA9D9006305C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA95673E1E7BA9D9006305C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA9567401E7BA9D9006305C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA9567431E7BA9D9006305C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA9567451E7BA9D9006305C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA95674A1E7BA9D9006305C6 /* OpenGL ES 03-纹理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL ES 03-纹理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA95674E1E7BA9D9006305C6 /* OpenGL_ES_03___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL_ES_03___Tests.m"; sourceTree = "<group>"; };
+		DA9567501E7BA9D9006305C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9567551E7BA9D9006305C6 /* OpenGL ES 03-纹理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL ES 03-纹理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9567591E7BA9D9006305C6 /* OpenGL_ES_03___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL_ES_03___UITests.m"; sourceTree = "<group>"; };
+		DA95675B1E7BA9D9006305C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA95672E1E7BA9D9006305C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9567471E7BA9D9006305C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9567521E7BA9D9006305C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA9567281E7BA9D9006305C6 = {
+			isa = PBXGroup;
+			children = (
+				DA9567331E7BA9D9006305C6 /* OpenGL ES 03-纹理 */,
+				DA95674D1E7BA9D9006305C6 /* OpenGL ES 03-纹理Tests */,
+				DA9567581E7BA9D9006305C6 /* OpenGL ES 03-纹理UITests */,
+				DA9567321E7BA9D9006305C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA9567321E7BA9D9006305C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA9567311E7BA9D9006305C6 /* OpenGL ES 03-纹理.app */,
+				DA95674A1E7BA9D9006305C6 /* OpenGL ES 03-纹理Tests.xctest */,
+				DA9567551E7BA9D9006305C6 /* OpenGL ES 03-纹理UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA9567331E7BA9D9006305C6 /* OpenGL ES 03-纹理 */ = {
+			isa = PBXGroup;
+			children = (
+				DA9567371E7BA9D9006305C6 /* AppDelegate.h */,
+				DA9567381E7BA9D9006305C6 /* AppDelegate.m */,
+				DA95673A1E7BA9D9006305C6 /* ViewController.h */,
+				DA95673B1E7BA9D9006305C6 /* ViewController.m */,
+				DA95673D1E7BA9D9006305C6 /* Main.storyboard */,
+				DA9567401E7BA9D9006305C6 /* Assets.xcassets */,
+				DA9567421E7BA9D9006305C6 /* LaunchScreen.storyboard */,
+				DA9567451E7BA9D9006305C6 /* Info.plist */,
+				DA9567341E7BA9D9006305C6 /* Supporting Files */,
+			);
+			path = "OpenGL ES 03-纹理";
+			sourceTree = "<group>";
+		};
+		DA9567341E7BA9D9006305C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA9567351E7BA9D9006305C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA95674D1E7BA9D9006305C6 /* OpenGL ES 03-纹理Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA95674E1E7BA9D9006305C6 /* OpenGL_ES_03___Tests.m */,
+				DA9567501E7BA9D9006305C6 /* Info.plist */,
+			);
+			path = "OpenGL ES 03-纹理Tests";
+			sourceTree = "<group>";
+		};
+		DA9567581E7BA9D9006305C6 /* OpenGL ES 03-纹理UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA9567591E7BA9D9006305C6 /* OpenGL_ES_03___UITests.m */,
+				DA95675B1E7BA9D9006305C6 /* Info.plist */,
+			);
+			path = "OpenGL ES 03-纹理UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA9567301E7BA9D9006305C6 /* OpenGL ES 03-纹理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA95675E1E7BA9D9006305C6 /* Build configuration list for PBXNativeTarget "OpenGL ES 03-纹理" */;
+			buildPhases = (
+				DA95672D1E7BA9D9006305C6 /* Sources */,
+				DA95672E1E7BA9D9006305C6 /* Frameworks */,
+				DA95672F1E7BA9D9006305C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL ES 03-纹理";
+			productName = "OpenGL ES 03-纹理";
+			productReference = DA9567311E7BA9D9006305C6 /* OpenGL ES 03-纹理.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA9567491E7BA9D9006305C6 /* OpenGL ES 03-纹理Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9567611E7BA9D9006305C6 /* Build configuration list for PBXNativeTarget "OpenGL ES 03-纹理Tests" */;
+			buildPhases = (
+				DA9567461E7BA9D9006305C6 /* Sources */,
+				DA9567471E7BA9D9006305C6 /* Frameworks */,
+				DA9567481E7BA9D9006305C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA95674C1E7BA9D9006305C6 /* PBXTargetDependency */,
+			);
+			name = "OpenGL ES 03-纹理Tests";
+			productName = "OpenGL ES 03-纹理Tests";
+			productReference = DA95674A1E7BA9D9006305C6 /* OpenGL ES 03-纹理Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA9567541E7BA9D9006305C6 /* OpenGL ES 03-纹理UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA9567641E7BA9D9006305C6 /* Build configuration list for PBXNativeTarget "OpenGL ES 03-纹理UITests" */;
+			buildPhases = (
+				DA9567511E7BA9D9006305C6 /* Sources */,
+				DA9567521E7BA9D9006305C6 /* Frameworks */,
+				DA9567531E7BA9D9006305C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA9567571E7BA9D9006305C6 /* PBXTargetDependency */,
+			);
+			name = "OpenGL ES 03-纹理UITests";
+			productName = "OpenGL ES 03-纹理UITests";
+			productReference = DA9567551E7BA9D9006305C6 /* OpenGL ES 03-纹理UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA9567291E7BA9D9006305C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = PicVision;
+				TargetAttributes = {
+					DA9567301E7BA9D9006305C6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6365DA2KWN;
+						ProvisioningStyle = Automatic;
+					};
+					DA9567491E7BA9D9006305C6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6365DA2KWN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA9567301E7BA9D9006305C6;
+					};
+					DA9567541E7BA9D9006305C6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6365DA2KWN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA9567301E7BA9D9006305C6;
+					};
+				};
+			};
+			buildConfigurationList = DA95672C1E7BA9D9006305C6 /* Build configuration list for PBXProject "OpenGL ES 03-纹理" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA9567281E7BA9D9006305C6;
+			productRefGroup = DA9567321E7BA9D9006305C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA9567301E7BA9D9006305C6 /* OpenGL ES 03-纹理 */,
+				DA9567491E7BA9D9006305C6 /* OpenGL ES 03-纹理Tests */,
+				DA9567541E7BA9D9006305C6 /* OpenGL ES 03-纹理UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA95672F1E7BA9D9006305C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA9567441E7BA9D9006305C6 /* LaunchScreen.storyboard in Resources */,
+				DA9567411E7BA9D9006305C6 /* Assets.xcassets in Resources */,
+				DA95673F1E7BA9D9006305C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9567481E7BA9D9006305C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9567531E7BA9D9006305C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA95672D1E7BA9D9006305C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95673C1E7BA9D9006305C6 /* ViewController.m in Sources */,
+				DA9567391E7BA9D9006305C6 /* AppDelegate.m in Sources */,
+				DA9567361E7BA9D9006305C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9567461E7BA9D9006305C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95674F1E7BA9D9006305C6 /* OpenGL_ES_03___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9567511E7BA9D9006305C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA95675A1E7BA9D9006305C6 /* OpenGL_ES_03___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA95674C1E7BA9D9006305C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA9567301E7BA9D9006305C6 /* OpenGL ES 03-纹理 */;
+			targetProxy = DA95674B1E7BA9D9006305C6 /* PBXContainerItemProxy */;
+		};
+		DA9567571E7BA9D9006305C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA9567301E7BA9D9006305C6 /* OpenGL ES 03-纹理 */;
+			targetProxy = DA9567561E7BA9D9006305C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA95673D1E7BA9D9006305C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA95673E1E7BA9D9006305C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA9567421E7BA9D9006305C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA9567431E7BA9D9006305C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA95675C1E7BA9D9006305C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA95675D1E7BA9D9006305C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA95675F1E7BA9D9006305C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = "OpenGL ES 03-纹理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PicVision.OpenGL-ES-03---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA9567601E7BA9D9006305C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = "OpenGL ES 03-纹理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PicVision.OpenGL-ES-03---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA9567621E7BA9D9006305C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = "OpenGL ES 03-纹理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PicVision.OpenGL-ES-03---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL ES 03-纹理.app/OpenGL ES 03-纹理";
+			};
+			name = Debug;
+		};
+		DA9567631E7BA9D9006305C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = "OpenGL ES 03-纹理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PicVision.OpenGL-ES-03---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenGL ES 03-纹理.app/OpenGL ES 03-纹理";
+			};
+			name = Release;
+		};
+		DA9567651E7BA9D9006305C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = "OpenGL ES 03-纹理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PicVision.OpenGL-ES-03---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGL ES 03-纹理";
+			};
+			name = Debug;
+		};
+		DA9567661E7BA9D9006305C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = "OpenGL ES 03-纹理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PicVision.OpenGL-ES-03---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OpenGL ES 03-纹理";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA95672C1E7BA9D9006305C6 /* Build configuration list for PBXProject "OpenGL ES 03-纹理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA95675C1E7BA9D9006305C6 /* Debug */,
+				DA95675D1E7BA9D9006305C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA95675E1E7BA9D9006305C6 /* Build configuration list for PBXNativeTarget "OpenGL ES 03-纹理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA95675F1E7BA9D9006305C6 /* Debug */,
+				DA9567601E7BA9D9006305C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA9567611E7BA9D9006305C6 /* Build configuration list for PBXNativeTarget "OpenGL ES 03-纹理Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9567621E7BA9D9006305C6 /* Debug */,
+				DA9567631E7BA9D9006305C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA9567641E7BA9D9006305C6 /* Build configuration list for PBXNativeTarget "OpenGL ES 03-纹理UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA9567651E7BA9D9006305C6 /* Debug */,
+				DA9567661E7BA9D9006305C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA9567291E7BA9D9006305C6 /* Project object */;
+}
