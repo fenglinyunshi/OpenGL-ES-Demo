@@ -6,10 +6,13 @@
 //  Copyright © 2017年 PicVision. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <GLKit/GLKit.h>
+@class AGLKVertexAttribArrayBuffer;
 
-@interface ViewController : UIViewController
+@interface ViewController :GLKViewController
 
+@property (nonatomic,strong) GLKBaseEffect *baseEffect;
+@property (nonatomic,strong) AGLKVertexAttribArrayBuffer *vertexBuffer;
 
 @end
 
