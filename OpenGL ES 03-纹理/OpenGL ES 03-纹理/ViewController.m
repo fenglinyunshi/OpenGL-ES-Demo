@@ -23,7 +23,7 @@ typedef struct{
 
 //初始化位置坐标和纹理坐标
 static const SceneVertex vertices[] = {
-    {{-0.5f,-0.4f,0.0},{0.0f,0.0f}},
+    {{-0.5f,-0.4f,0.0},{0.0f,0.0f}},//前面三个数字是位置坐标，后面2个数字是纹理坐标
     {{0.5f,-0.4f,0.0},{1.0f,0.0f}},
     {{-0.5f,0.4f,0.0},{0.0f,1.0f}},
     {{0.5f,0.4f,0.0},{1.0f,1.0f}}
@@ -55,9 +55,9 @@ static const SceneVertex vertices[] = {
     self.vertexBuffer = [[AGLKVertexAttribArrayBuffer alloc] initWithAttribStride:sizeof(SceneVertex) numberOfVertices:sizeof(vertices)/sizeof(SceneVertex) data:vertices usage:GL_STATIC_DRAW];
     
     CGImageRef imageRef = [[UIImage imageNamed:@"butterfly"] CGImage];
-    GLKTextureInfo *info = [GLKTextureLoader textureWithCGImage:imageRef options:nil error:NULL];
+    GLKTextureInfo *info = [GLKTextureLoader textureWithCGImage:imageRef options:nil error:NULL];//接受一个CGImageRef并创建一个新的包含CGImageRef的像素数据的OpenGL ES纹理缓存，options参数接受一个存储了用于指定GLKTextureLoader怎么解析加载的图像数据的键值对的NSDictionary。可用选项之一是指示GLKTextureLoader为加载的图像生成MIP贴图。
     
-    self.baseEffect.texture2d0.name = info.name;
+    self.baseEffect.texture2d0.name = info.name;//设置baseEffect的texture2d0属性和使用一个新的纹理缓存。GLKTextureInfo类封装了与刚创建的纹理缓存相关的信息，包含他的尺寸、是否包含MIP贴图、OpenGL ES标识符、名字以及用于纹理的OpenGL ES目标等。
     self.baseEffect.texture2d0.target = info.target;
     
 }
@@ -77,6 +77,7 @@ static const SceneVertex vertices[] = {
     [self.vertexBuffer prepareToDrawWithAttrib:GLKVertexAttribTexCoord0 numberOfCoordinates:2 attribOffset:offsetof(SceneVertex, textureCoords) shouldEnable:YES];
     
     [self.vertexBuffer drawArrayWithMode:GL_TRIANGLE_STRIP startVertexIndex:0 numberOfVertices:4];
+    
 }
 
 - (void)dealloc{

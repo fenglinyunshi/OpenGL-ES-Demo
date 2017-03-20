@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1D069B1E7F659100BAAB9A /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1D06981E7F659100BAAB9A /* AGLKContext.m */; };
+		DA1D069C1E7F659100BAAB9A /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1D069A1E7F659100BAAB9A /* AGLKVertexAttribArrayBuffer.m */; };
+		DA1D069E1E7F677700BAAB9A /* butterfly.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1D069D1E7F677700BAAB9A /* butterfly.png */; };
 		DA9567361E7BA9D9006305C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9567351E7BA9D9006305C6 /* main.m */; };
 		DA9567391E7BA9D9006305C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9567381E7BA9D9006305C6 /* AppDelegate.m */; };
 		DA95673C1E7BA9D9006305C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95673B1E7BA9D9006305C6 /* ViewController.m */; };
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA1D06971E7F659100BAAB9A /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
+		DA1D06981E7F659100BAAB9A /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
+		DA1D06991E7F659100BAAB9A /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		DA1D069A1E7F659100BAAB9A /* AGLKVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		DA1D069D1E7F677700BAAB9A /* butterfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly.png; sourceTree = "<group>"; };
 		DA9567311E7BA9D9006305C6 /* OpenGL ES 03-纹理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL ES 03-纹理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9567351E7BA9D9006305C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA9567371E7BA9D9006305C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +109,11 @@
 		DA9567331E7BA9D9006305C6 /* OpenGL ES 03-纹理 */ = {
 			isa = PBXGroup;
 			children = (
+				DA1D069D1E7F677700BAAB9A /* butterfly.png */,
+				DA1D06971E7F659100BAAB9A /* AGLKContext.h */,
+				DA1D06981E7F659100BAAB9A /* AGLKContext.m */,
+				DA1D06991E7F659100BAAB9A /* AGLKVertexAttribArrayBuffer.h */,
+				DA1D069A1E7F659100BAAB9A /* AGLKVertexAttribArrayBuffer.m */,
 				DA9567371E7BA9D9006305C6 /* AppDelegate.h */,
 				DA9567381E7BA9D9006305C6 /* AppDelegate.m */,
 				DA95673A1E7BA9D9006305C6 /* ViewController.h */,
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA9567441E7BA9D9006305C6 /* LaunchScreen.storyboard in Resources */,
+				DA1D069E1E7F677700BAAB9A /* butterfly.png in Resources */,
 				DA9567411E7BA9D9006305C6 /* Assets.xcassets in Resources */,
 				DA95673F1E7BA9D9006305C6 /* Main.storyboard in Resources */,
 			);
@@ -276,7 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1D069B1E7F659100BAAB9A /* AGLKContext.m in Sources */,
 				DA95673C1E7BA9D9006305C6 /* ViewController.m in Sources */,
+				DA1D069C1E7F659100BAAB9A /* AGLKVertexAttribArrayBuffer.m in Sources */,
 				DA9567391E7BA9D9006305C6 /* AppDelegate.m in Sources */,
 				DA9567361E7BA9D9006305C6 /* main.m in Sources */,
 			);
@@ -516,6 +532,7 @@
 				DA9567601E7BA9D9006305C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA9567611E7BA9D9006305C6 /* Build configuration list for PBXNativeTarget "OpenGL ES 03-纹理Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +541,7 @@
 				DA9567631E7BA9D9006305C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA9567641E7BA9D9006305C6 /* Build configuration list for PBXNativeTarget "OpenGL ES 03-纹理UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +550,7 @@
 				DA9567661E7BA9D9006305C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
