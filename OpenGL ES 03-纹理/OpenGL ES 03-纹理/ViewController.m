@@ -29,6 +29,7 @@ static const SceneVertex vertices[] = {
     {{0.5f,0.4f,0.0},{1.0f,1.0f}}
 };
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -59,6 +60,11 @@ static const SceneVertex vertices[] = {
     
     self.baseEffect.texture2d0.name = info.name;//设置baseEffect的texture2d0属性和使用一个新的纹理缓存。GLKTextureInfo类封装了与刚创建的纹理缓存相关的信息，包含他的尺寸、是否包含MIP贴图、OpenGL ES标识符、名字以及用于纹理的OpenGL ES目标等。
     self.baseEffect.texture2d0.target = info.target;
+    
+}
+
+#pragma mark 这两个方法每帧都执行一次（循环执行），执行频率与屏幕刷新率相同。第一次循环时，先调用“glkView”再调用“update”。一般，将场景数据变化放在“update”中，而渲染代码则放在“glkView”中。
+- (void)update{
     
 }
 
