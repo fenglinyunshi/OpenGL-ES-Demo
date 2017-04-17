@@ -17,7 +17,6 @@
 		DA0151241EA4A0EB000E7047 /* OpenGL_ES_04_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0151231EA4A0EB000E7047 /* OpenGL_ES_04_______UITests.m */; };
 		DA0151381EA4A536000E7047 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA0151371EA4A536000E7047 /* flower.jpg */; };
 		DA01513A1EA4A53A000E7047 /* honeybee.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0151391EA4A53A000E7047 /* honeybee.png */; };
-		DA01513C1EA4A9CC000E7047 /* leaves.gif in Resources */ = {isa = PBXBuildFile; fileRef = DA01513B1EA4A9CC000E7047 /* leaves.gif */; };
 		DA0151411EA4B661000E7047 /* AGLKContext.m in Sources */ = {isa = PBXBuildFile; fileRef = DA01513E1EA4B661000E7047 /* AGLKContext.m */; };
 		DA0151421EA4B661000E7047 /* AGLKVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0151401EA4B661000E7047 /* AGLKVertexAttribArrayBuffer.m */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 		DA0151251EA4A0EB000E7047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA0151371EA4A536000E7047 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
 		DA0151391EA4A53A000E7047 /* honeybee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honeybee.png; sourceTree = "<group>"; };
-		DA01513B1EA4A9CC000E7047 /* leaves.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leaves.gif; sourceTree = "<group>"; };
 		DA01513D1EA4B661000E7047 /* AGLKContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKContext.h; sourceTree = "<group>"; };
 		DA01513E1EA4B661000E7047 /* AGLKContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKContext.m; sourceTree = "<group>"; };
 		DA01513F1EA4B661000E7047 /* AGLKVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 				DA01513F1EA4B661000E7047 /* AGLKVertexAttribArrayBuffer.h */,
 				DA0151401EA4B661000E7047 /* AGLKVertexAttribArrayBuffer.m */,
 				DA0151371EA4A536000E7047 /* flower.jpg */,
-				DA01513B1EA4A9CC000E7047 /* leaves.gif */,
 				DA0151391EA4A53A000E7047 /* honeybee.png */,
 				DA0151011EA4A0EB000E7047 /* AppDelegate.h */,
 				DA0151021EA4A0EB000E7047 /* AppDelegate.m */,
@@ -268,7 +265,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA01513C1EA4A9CC000E7047 /* leaves.gif in Resources */,
 				DA0151381EA4A536000E7047 /* flower.jpg in Resources */,
 				DA01510E1EA4A0EB000E7047 /* LaunchScreen.storyboard in Resources */,
 				DA01513A1EA4A53A000E7047 /* honeybee.png in Resources */,
@@ -542,6 +538,7 @@
 				DA01512A1EA4A0EB000E7047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA01512B1EA4A0EB000E7047 /* Build configuration list for PBXNativeTarget "OpenGL ES 04-混合片元颜色Tests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +547,7 @@
 				DA01512D1EA4A0EB000E7047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA01512E1EA4A0EB000E7047 /* Build configuration list for PBXNativeTarget "OpenGL ES 04-混合片元颜色UITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +556,7 @@
 				DA0151301EA4A0EB000E7047 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
