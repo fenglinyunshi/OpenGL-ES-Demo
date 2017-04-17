@@ -21,10 +21,10 @@ typedef struct{
 }SceneVertex;
 
 static const SceneVertex vertices[] = {
-    {{-0.5f,-0.5f,0.0}},
-    {{0.5f,-0.5f,0.0}},
-    {{-0.5f,0.5f,0.0}},
-    {{0.5f,0.5f,0.0}}
+    {{-0.5f,-0.4f,0.0}},
+    {{0.5f,-0.4f,0.0}},
+    {{-0.5f,0.4f,0.0}},
+    {{0.5f,0.4f,0.0}}
 };
 
 - (void)viewDidLoad {
@@ -37,13 +37,13 @@ static const SceneVertex vertices[] = {
     
     self.baseEffect = [[GLKBaseEffect alloc] init];
     self.baseEffect.useConstantColor = GL_TRUE;
-    self.baseEffect.constantColor = GLKVector4Make(0.4f,//red
-                                                   0.6f,//green
-                                                   0.2f,//blue
+    self.baseEffect.constantColor = GLKVector4Make(1.0f,//red
+                                                   1.0f,//green
+                                                   1.0f,//blue
                                                    1.0f);
-    ((AGLKContext *)view.context).clearColor = GLKVector4Make(1.0f, // Red
-                                                              1.0f, // Green
-                                                              1.0f, // Blue
+    ((AGLKContext *)view.context).clearColor = GLKVector4Make(0.0f, // Red
+                                                              0.0f, // Green
+                                                              0.0f, // Blue
                                                               1.0f);// Alpha
     self.vertexBuffer = [[AGLKVertexAttribArrayBuffer alloc] initWithAttribStride:sizeof(SceneVertex) numberOfVertices:sizeof(vertices)/sizeof(SceneVertex) data:vertices usage:GL_STATIC_DRAW];
     
